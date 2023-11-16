@@ -15,7 +15,7 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MyViewHo
 
     List<Message> messageList;
     public MessageAdapter(List<Message> messageListlist) {
-        this.messageList = messageList;
+        this.messageList = messageListlist;
     }
 
     @NonNull
